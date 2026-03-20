@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vision Optical - Rampur</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin:0;
+      font-family: 'Segoe UI', sans-serif;
+      color:#111;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display:flex;
+      justify-content:space-between;
+      padding:15px 30px;
+      background:#000;
+      color:#fff;
+      position:sticky;
+      top:0;
+    }
+
+    .navbar a {
+      color:white;
+      text-decoration:none;
+      margin:0 10px;
+    }
+
+    /* HERO */
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1511499767150-a48a237f0083') center/cover no-repeat;
+      color:white;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    .btn {
+      padding:12px 25px;
+      margin:10px;
+      background:black;
+      color:white;
+      text-decoration:none;
+      border-radius:30px;
+    }
+
+    .btn.whatsapp {
+      background:#25D366;
+    }
+
+    .section {
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    .grid {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .card {
+      width:220px;
+      border-radius:10px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width:100%;
+      height:180px;
+      object-fit:cover;
+    }
+
+    .card p {
+      padding:10px;
+    }
+
+    iframe {
+      width:100%;
+      height:300px;
+      border:0;
+    }
+
+    footer {
+      background:#000;
+      color:#fff;
+      padding:20px;
+      text-align:center;
+    }
+
+    /* FLOATING WHATSAPP */
+    .floating-whatsapp {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:15px;
+      border-radius:50%;
+      text-decoration:none;
+      font-size:20px;
+    }
+  </style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div><b>Vision Optical</b></div>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Collection</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Vision Optical</h1>
+  <p>See Better. Look Better.</p>
+  <a class="btn" href="#">Explore Collection</a>
+  <a class="btn whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp</a>
+</div>
+
+<!-- COLLECTION -->
+<div class="section">
+  <h2>Our Collection</h2>
+  <div class="grid">
+    <div class="card"><p>Sunglasses</p></div>
+    <div class="card"><p>Optical Frames</p></div>
+    <div class="card"><p>Designer</p></div>
+    <div class="card"><p>Kids</p></div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<div class="section">
+  <h2>Featured Products</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083">
+      <p>Classic Black Frame</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f">
+      <p>Gold Aviator</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67">
+      <p>Transparent Frame</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- MAP -->
+<div class="section">
+  <h2>Find Us in Rampur</h2>
+
+  <!-- You can replace with your exact shop location later -->
+  <iframe src="https://maps.google.com/maps?q=Rampur%20India&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+  <h2>Contact Us</h2>
+  <p>📍 Rampur</p>
+  <p>📞 Your Phone Number</p>
+</div>
+
+<footer>
+  <p>Vision Optical © 2026</p>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a class="floating-whatsapp" href="https://wa.me/918755309124" target="_blank">💬</a>
+
+</body>
+</html>
